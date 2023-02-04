@@ -64,7 +64,7 @@ set_property CFGBVS VCCO [current_design]
 #set_property -dict { PACKAGE_PIN C20 IOSTANDARD LVCMOS33 } [get_ports { d1_9 }];   # DATA1-9
 #set_property -dict { PACKAGE_PIN H17 IOSTANDARD LVCMOS33 } [get_ports { d1_11 }];  # DATA1-11
 #set_property -dict { PACKAGE_PIN D20 IOSTANDARD LVCMOS33 } [get_ports { d1_13 }];  # DATA1-13
-#set_property -dict { PACKAGE_PIN D18 IOSTANDARD LVCMOS33 } [get_ports { d1_14 }];  # DATA1-14
+#set_property -dict { PACKAGE_PIN D18 IOSTANDARD LVCMOS33 } [get_ports { d1_14 }];  # DATA1-14  Buzzer
 #set_property -dict { PACKAGE_PIN H18 IOSTANDARD LVCMOS33 } [get_ports { d1_15 }];  # DATA1-15
 #set_property -dict { PACKAGE_PIN D19 IOSTANDARD LVCMOS33 } [get_ports { d1_16 }];  # DATA1-16
 #set_property -dict { PACKAGE_PIN F20 IOSTANDARD LVCMOS33 } [get_ports { d1_17 }];  # DATA1-17
@@ -89,15 +89,15 @@ set_property CFGBVS VCCO [current_design]
 
 #set_property -dict { PACKAGE_PIN M19 IOSTANDARD LVCMOS33 } [get_ports { d3_5 }];   # DATA3-5
 #set_property -dict { PACKAGE_PIN N20 IOSTANDARD LVCMOS33 } [get_ports { d3_6 }];   # DATA3-6
-#set_property -dict { PACKAGE_PIN P18 IOSTANDARD LVCMOS33 } [get_ports { d3_7 }];   # DATA3-7
+#set_property -dict { PACKAGE_PIN P18 IOSTANDARD LVCMOS33 } [get_ports { d3_7 }];   # DATA3-7   H4-4
 #set_property -dict { PACKAGE_PIN M17 IOSTANDARD LVCMOS33 } [get_ports { d3_8 }];   # DATA3-8
-#set_property -dict { PACKAGE_PIN N17 IOSTANDARD LVCMOS33 } [get_ports { d3_9 }];   # DATA3-9
-#set_property -dict { PACKAGE_PIN P20 IOSTANDARD LVCMOS33 } [get_ports { d3_11 }];  # DATA3-11
-#set_property -dict { PACKAGE_PIN R18 IOSTANDARD LVCMOS33 } [get_ports { d3_13 }];  # DATA3-13
-#set_property -dict { PACKAGE_PIN R19 IOSTANDARD LVCMOS33 } [get_ports { d3_14 }];  # DATA3-14
-#set_property -dict { PACKAGE_PIN P19 IOSTANDARD LVCMOS33 } [get_ports { d3_15 }];  # DATA3-15
-#set_property -dict { PACKAGE_PIN T20 IOSTANDARD LVCMOS33 } [get_ports { d3_16 }];  # DATA3-16
-#set_property -dict { PACKAGE_PIN U20 IOSTANDARD LVCMOS33 } [get_ports { d3_17 }];  # DATA3-17
-#set_property -dict { PACKAGE_PIN T19 IOSTANDARD LVCMOS33 } [get_ports { d3_18 }];  # DATA3-18
-#set_property -dict { PACKAGE_PIN V20 IOSTANDARD LVCMOS33 } [get_ports { d3_19 }];  # DATA3-19
-#set_property -dict { PACKAGE_PIN U19 IOSTANDARD LVCMOS33 } [get_ports { d3_20 }];  # DATA3-20
+#set_property -dict { PACKAGE_PIN N17 IOSTANDARD LVCMOS33 } [get_ports { d3_9 }];   # DATA3-9   Display RES
+#set_property -dict { PACKAGE_PIN P20 IOSTANDARD LVCMOS33 } [get_ports { d3_11 }];  # DATA3-11  Display SDA
+#set_property -dict { PACKAGE_PIN R18 IOSTANDARD LVCMOS33 } [get_ports { d3_13 }];  # DATA3-13  Display D/C
+#set_property -dict { PACKAGE_PIN R19 IOSTANDARD LVCMOS33 } [get_ports { d3_14 }];  # DATA3-14  Display SCL
+#set_property -dict { PACKAGE_PIN P19 IOSTANDARD LVCMOS33 } [get_ports { d3_15 }];  # DATA3-15  Key2
+#set_property -dict { PACKAGE_PIN T20 IOSTANDARD LVCMOS33 } [get_ports { d3_16 }];  # DATA3-16  Display LED backlight
+#set_property -dict { PACKAGE_PIN U20 IOSTANDARD LVCMOS33 } [get_ports { d3_17 }];  # DATA3-17  Key3
+#set_property -dict { PACKAGE_PIN T19 IOSTANDARD LVCMOS33 } [get_ports { d3_18 }];  # DATA3-18  Key1
+#set_property -dict { PACKAGE_PIN V20 IOSTANDARD LVCMOS33 } [get_ports { d3_19 }];  # DATA3-19  Key5
+#set_property -dict { PACKAGE_PIN U19 IOSTANDARD LVCMOS33 } [get_ports { d3_20 }];  # DATA3-20  Key4
